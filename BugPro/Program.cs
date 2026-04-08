@@ -159,7 +159,6 @@ public static class Program
         bug.Resolve();
         bug.VerifyFix(false);
         bug.ReturnToTriaged();
-
         Console.WriteLine(bug);
         foreach (var item in bug.History)
         {
