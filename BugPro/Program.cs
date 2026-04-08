@@ -153,7 +153,6 @@ public static class Program
 
         Console.WriteLine("Bug workflow demo");
         Console.WriteLine(bug);
-
         bug.Triage();
         bug.StartProgress();
         bug.Resolve();
